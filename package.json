@@ -16,7 +16,9 @@
     "postinstall": "npm run build"
   },
   "author": "ashley_lyf@icloud.com",
-  "contributors": ["brianfounder@hotmail.com"],
+  "contributors": [
+    "brianfounder@hotmail.com"
+  ],
   "repository": {
     "url": "https://github.com/AshleyLv/catalyst"
   },
@@ -50,6 +52,7 @@
     "express": "^4.15.2",
     "express-jwt": "^5.1.0",
     "jsonwebtoken": "^7.3.0",
+    "mysql": "^2.14.1",
     "ngrx-store-freeze": "^0.1.9",
     "normalize.css": "^5.0.0",
     "path": "^0.12.7",
@@ -62,6 +65,7 @@
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
+    "@types/mysql": "0.0.34",
     "codelyzer": "~3.1.2",
     "concurrently": "^3.5.0",
     "jasmine-core": "~2.5.2",
